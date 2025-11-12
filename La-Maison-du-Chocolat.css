@@ -52,4 +52,22 @@ li {
 
 .logo__presentation {
     height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+.logo-quality {
+    
+}
+
+.title-presentation {
+    padding-top: 90px;
+}
+
+.text-presentation {
+    padding-top: 30px;
 }
