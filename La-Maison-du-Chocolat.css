@@ -1,0 +1,55 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html {
+    font-family: "Stack Sans Text", sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+    
+}
+
+li {
+    list-style: none;
+    display: inline;
+    margin-right: 60px;
+}
+
+.hero__introduction {
+    height: 70vh;
+    background-image: url(images/main.jpg);
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-introduction, .title-introduction {
+    font-size: 4em;
+    color: white;
+}
+
+.title-introduction {
+        padding-bottom: 60px;
+}
+
+.here {
+    background-color: violet;
+    color:antiquewhite;
+    height: 60px;
+    width: 150px;
+    border-radius: 10px;
+    font-size: 1em;
+    font-weight: 600;
+}
+
+.logo__presentation {
+    height: 100vh;
+}
