@@ -3,22 +3,39 @@
     margin: 0;
     box-sizing: border-box;
 }
+
 html {
     font-family: "Stack Sans Text", sans-serif;
 }
 
 header {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
-    height: 100px;
+    height: 150px;
     
+}
+.rose {
+    color: #ff006e;
 }
 
 li {
     list-style: none;
     display: inline;
     margin-right: 60px;
+    
+}
+
+a {
+    text-decoration: none;
+    font-weight: 900;
+    font-size: 1.3em;
+    color: grey;
+}
+
+ul {
+    padding-left: 60px;
+    padding-top: 30px;
 }
 
 .hero__introduction {
@@ -31,37 +48,40 @@ li {
     align-items: center;
 }
 
-.text-introduction, .title-introduction {
+.text-introduction,
+.title-introduction {
     font-size: 4em;
     color: white;
 }
 
 .title-introduction {
-        padding-bottom: 60px;
+    padding-bottom: 60px;
 }
 
 .here {
-    background-color: violet;
-    color:antiquewhite;
+    background-color: #ff006e;
+    color: antiquewhite;
     height: 60px;
     width: 150px;
     border-radius: 10px;
     font-size: 1em;
     font-weight: 600;
+    border-top-width: 0px;
+    border-right-width: 0px;
+    border-bottom-width: 0px;
+    border-left-width: 0px;
 }
 
 .logo__presentation {
     height: 100vh;
     width: 100%;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
-    
-    
 }
 
 .logo-quality {
-    
+    background-color: lightcoral;
 }
 
 .title-presentation {
