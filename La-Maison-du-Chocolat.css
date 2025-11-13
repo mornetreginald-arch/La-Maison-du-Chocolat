@@ -154,13 +154,51 @@ ul {
 .contact__container {
     height: 40vh;
     text-align: center;
-    
     /* display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: justify; */
 }
+
+h2{
+    font-size: 2em;
+}
+
+p {
+    color: grey;
+}
+
+.contactus input[type="text"] {
+    /* width: 100%; prend toute la largeur du conteneur */
+    padding: 15px 15px; /* agrandit la zone de saisie */
+    font-size: 1.1em; /* texte plus grand */
+    border: 2px solid #ccc;
+    /* border-radius: 10px; */
+    /* outline: none;
+    transition: border-color 0.3s ease; */
+}
+
+.button {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.ok {
+    background-color: #ff006e;
+    color: antiquewhite;
+    height: 50px;
+    width: 50px;
+    border-radius: 10px;
+    font-size: 1em;
+    font-weight: 600;
+    border-top-width: 0px;
+    border-right-width: 0px;
+    border-bottom-width: 0px;
+    border-left-width: 0px;
+}
+
+
 footer{
     background-color: rgb(78, 73, 73);
     height: 20vh;
