@@ -101,6 +101,7 @@ ul {
 }
 
 .club, .actus {
+    position: relative;
     height: 300px;
     width: 600px;
     border-radius: 30px; 
@@ -108,6 +109,7 @@ ul {
     background-position: center; 
     background-repeat: no-repeat;
     /* padding-left: 60px; */
+    
     
 }
 
@@ -117,10 +119,13 @@ ul {
 }
 
 .actus {
-    
-    background-image: url(images/article-image-2.jpg);
-    
+        background: linear-gradient(
+        rgba(255,255,255,0.6)
+    ),
+    url(images/article-image-2.jpg) center/cover no-repeat;
 }
+
+
 
 .p-container, .title-container {
     padding-top: 30px;
@@ -144,4 +149,28 @@ ul {
     border-right-width: 0px;
     border-bottom-width: 0px;
     border-left-width: 0px;
+}
+
+.contact__container {
+    height: 40vh;
+    text-align: center;
+    
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: justify; */
+}
+footer{
+    background-color: rgb(78, 73, 73);
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h2 {
+    padding-bottom: 30px;
+    padding-top: 40px;
 }
