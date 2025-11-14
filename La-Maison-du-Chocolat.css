@@ -85,53 +85,22 @@ p {
     height: 60vh;
     width: 100%;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
+
 }
 
 
-.icon1 {
-    margin-left: 434px;
-    height: 130px;
-}
+.logo-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    }
 
-.icon2 {
-    padding-left: 271px;
-    height: 130px;
-    margin-top: -20px;
-}
-
-.icon3 {
-    height: 130px;
-    padding-left: 195px;
-    margin-top: -20px;
-}
-
-
-.title-presentation1 {
-    margin-left: 436px;
-    padding-top: 0px;
-    margin-bottom: 29px;
-    padding-bottom: 0px;
-    margin-top: 48px;
-}
-
-.title-presentation2 {
-    padding-top: 50px;
-    padding-left: 264px;
-}
-
-.title-presentation3{
-    padding-top: 50px;
-    margin-left: 187px;
-}
-
-.text-presentation1 {
-    padding-top: 30px;
-    width: 60%;
-    padding-top: 0px;
-    margin-bottom: 15px;
-    margin-left: 327px;
+.icon {
+    width: 80px;
 }
 
 
@@ -252,4 +221,175 @@ footer {
 h2 {
     padding-bottom: 30px;
     padding-top: 40px;
+}
+
+
+
+
+@media (max-width: 1024px) {
+
+    .logo__presentation {
+        flex-wrap: wrap;
+        gap: 40px;
+    }
+
+    .infos__container {
+        flex-direction: column;
+        height: auto;
+        gap: 40px;
+        padding: 40px 0;
+    }
+
+    .club,
+    .actus {
+        width: 80%;
+        height: 250px;
+    }
+
+    .p-container, .title-container {
+        padding-right: 0; 
+        text-align: center;
+    }
+
+    .p-contactus {
+        margin-left: 0;
+        padding-right: 0;
+        width: 90%;
+    }
+}
+
+
+@media (max-width: 768px) {
+
+    header {
+        flex-direction: column;
+        height: auto;
+        padding: 20px 0;
+        text-align: center;
+    }
+
+    ul {
+        padding-top: 10px;
+        padding-left: 0;
+    }
+
+    li {
+        margin-right: 20px;
+    }
+
+    .text-introduction,
+    .title-introduction {
+        font-size: 2.5em;
+    }
+
+    .logo__presentation {
+        height: auto;
+        flex-wrap: wrap;
+        gap: 30px;
+        padding: 40px 0;
+    }
+
+    .infos__container {
+        flex-direction: column;
+        gap: 40px;
+        height: auto;
+    }
+
+    .club,
+    .actus {
+        width: 90%;
+        height: 220px;
+    }
+
+    .contact__container {
+        height: auto;
+        padding: 40px 20px;
+    }
+
+    .button-container {
+        padding-top: 20px;
+    }
+}
+
+
+@media (max-width: 576px) {
+
+    header {
+        height: auto;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    ul {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    li {
+        margin-right: 0;
+    }
+
+    a {
+        font-size: 1.1em;
+    }
+
+    .hero__introduction {
+        height: 50vh;
+        background-position: center;
+    }
+
+    .text-introduction,
+    .title-introduction {
+        font-size: 1.8em;
+        text-align: center;
+    }
+
+    .logo__presentation {
+        flex-direction: column;
+        height: auto;
+        gap: 20px;
+    }
+
+    .icon {
+        width: 60px;
+    }
+
+    .infos__container {
+        flex-direction: column;
+        height: auto;
+        padding: 20px 0;
+        gap: 20px;
+    }
+
+    .club,
+    .actus {
+        width: 100%;
+        height: 200px;
+        border-radius: 20px;
+    }
+
+    .p-container, 
+    .title-container {
+        padding: 20px;
+        text-align: center;
+    }
+
+    .contact__container {
+        height: auto;
+        padding: 20px;
+    }
+
+    .p-contactus {
+        width: 100%;
+        margin-left: 0;
+        padding-right: 0;
+        text-align: center;
+    }
+
+    footer {
+        height: auto;
+        padding: 20px;
+        text-align: center;
+    }
 }
