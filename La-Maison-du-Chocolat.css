@@ -123,8 +123,9 @@ p {
     background-position: center;
     background-repeat: no-repeat;
     /* padding-left: 60px; */
-
-
+    display: flex;
+    flex-direction: column;
+    align-items:start;
 }
 
 .club {
@@ -137,12 +138,12 @@ p {
 
 
 
-.p-container,
+/* .p-container,
 .title-container {
     padding-top: 30px;
     padding-bottom: 30px;
     padding-right: 400px;
-}
+} */
 
 .p-container {
     border-top: 1px solid black;
