@@ -97,7 +97,7 @@ p {
     align-items: center;
     justify-content: center;
     text-align: center;
-    }
+}
 
 .icon {
     width: 80px;
@@ -123,30 +123,42 @@ p {
     background-position: center;
     background-repeat: no-repeat;
     /* padding-left: 60px; */
-    display: flex;
+    /* display: flex;
     flex-direction: column;
-    align-items:start;
+    align-items:start; */
+
 }
+
 
 .club {
     background-image: url(images/article-image-1.jpg);
 }
 
 .actus {
+
     background: url(images/article-image-2.jpg) center/cover no-repeat;
 }
 
+.club:hover,
+.actus:hover {
+    transform: scale(1.03);
+}
 
-
-/* .p-container,
-.title-container {
-    padding-top: 30px;
-    padding-bottom: 30px;
-    padding-right: 400px;
-} */
 
 .p-container {
+    padding-top: 50px;
+    text-align: center;
+    width: 30%;
     border-top: 1px solid black;
+    padding-top: 20px;
+    color: black;
+
+    
+}
+
+
+.infoplus {
+    margin-top: 30px;
 }
 
 .infoplus {
@@ -173,17 +185,18 @@ p {
     text-align: justify; */
 }
 
-.p-contactus {
-    width: 80%;
-    padding-right: 400px;
-    margin-left: 368px;
+.contactus {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
 }
 
-/* .contactus input[type="text"] {
-    padding: 15px 15px;
-    font-size: 1.1em;
-    border: 2px solid #ccc;
-} */
+.p-contactus {
+    width: 80%;
+
+}
+
 
 .button-container {
     padding-top: 60px;
@@ -247,8 +260,9 @@ h2 {
         height: 250px;
     }
 
-    .p-container, .title-container {
-        padding-right: 0; 
+    .p-container,
+    .title-container {
+        padding-right: 0;
         text-align: center;
     }
 
@@ -370,7 +384,7 @@ h2 {
         border-radius: 20px;
     }
 
-    .p-container, 
+    .p-container,
     .title-container {
         padding: 20px;
         text-align: center;
